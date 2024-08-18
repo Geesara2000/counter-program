@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 48px;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+div {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#decreaseBtn {
+  background-color: #ff4b4b;
+  color: white;
+}
+
+#resetBtn {
+  background-color: #ffda44;
+  color: black;
+}
+
+#increaseBtn {
+  background-color: #4caf50;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.95);
+}
